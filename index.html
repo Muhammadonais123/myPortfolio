@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooklyn | Premium Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gradient-bg"></div>
+
+    <nav class="glass-nav">
+        <div class="logo"><span>B</span> Brooklyn</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="home" class="hero page-section">
+        <div class="hero-content">
+            <span class="badge">Available for Work</span>
+            <h1>Hello, I'm <br><span class="gradient-text">Brooklyn Gilbert</span></h1>
+            <p>I'm a Freelance UI/UX Designer and Developer based in London. I build immersive and beautiful web applications.</p>
+            <div class="hero-btns">
+                <button class="btn-main" onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">Say Hello!</button>
+                <button class="btn-outline" onclick="document.querySelector('#portfolio').scrollIntoView({behavior:'smooth'})">View Work</button>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card"><h3>15 Y.</h3><p>Experience</p></div>
+                <div class="stat-card"><h3>250+</h3><p>Projects</p></div>
+                <div class="stat-card"><h3>58</h3><p>Happy Clients</p></div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="assets/hero.jpg" alt="Brooklyn">
+            </div>
+        </div>
+    </main>
+
+    <section id="about" class="page-section about-premium">
+        <div class="blob-decor"></div>
+        <div class="container about-flex">
+            <div class="about-visual">
+                <div class="glass-morph-circle"></div>
+            </div>
+            <div class="about-content">
+                <div class="reveal-box">
+                    <span class="section-tag">02 / About Me</span>
+                </div>
+                <h2 class="title-large">Designing with <br><span class="text-glow">Digital Purpose</span></h2>
+                <p class="description">
+                    I specialize in creating clean, user-centric digital interfaces. I bridge the gap between <strong>complex code</strong> and <strong>intuitive design</strong> to create products that feel natural.
+                </p>
+                <div class="skill-chips">
+                    <span class="chip">UI/UX Design</span>
+                    <span class="chip">Web Development</span>
+                    <span class="chip">Branding</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="page-section portfolio-bg">
+        <div class="container">
+            <div class="center-head">
+                <span class="section-tag">03 / Works</span>
+                <h2 class="title-large">Selected Projects</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="work-card">
+                    <img src="assets/Project 1.jpg" alt="Project 1">
+                    <div class="work-overlay">
+                        <h3>Data Analytics Pro</h3>
+                        <p>Web Application</p>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="assets/Project 2.jpg" alt="Project 2">
+                    <div class="work-overlay">
+                        <h3>Aura Smart Watch</h3>
+                        <p>E-commerce Site</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="page-section">
+        <div class="container">
+            <div class="contact-card glass-effect">
+                <div class="contact-header">
+                    <span class="section-tag">04 / Connect</span>
+                    <h2>Start a Conversation</h2>
+                </div>
+                <form id="portfolioForm" class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <textarea placeholder="Tell me about your project..." rows="6"></textarea>
+                    <button type="submit" class="premium-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo"><span>B</span> Brooklyn</div>
+                <p>Creating digital experiences that matter. Let's build something extraordinary together.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Me</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-btn">Li</a>
+                    <a href="#" class="social-btn">Tw</a>
+                    <a href="#" class="social-btn">Ig</a>
+                    <a href="#" class="social-btn">Be</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 <span class="color">Brooklyn Gilbert.</span> Made with  and Code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
